@@ -2,7 +2,7 @@
 width: 100%;
 }
 @media only screen and (min-width: 768px) {
-[class*="col-"]{
+[class*="col-"] {
 float: left;
 padding: 15px;
 background-color: white;
@@ -23,7 +23,7 @@ background-color: pink
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 }
-header{
+.header{
 background-image: url(heerhugowaard-header.jpg);
 opacity: 0.7;
 color: white;
@@ -31,8 +31,9 @@ font-family: 'Zen Dots', cursive;
 height: 100px;
 display: flex;
 padding-left: 10px;
+clear: left;
 }
-footer{
+.footer{
 background-color: blue;
 color: white;
 font-family: 'Zen Dots', cursive;
@@ -42,11 +43,9 @@ padding-left: 10px;
 clear: left;
 }
 #nummer1{
-width: 100%;
 display: inline-block;
 }
 #nummer2{
-width: 100%;
 display: inline-block;
 }
 img{
