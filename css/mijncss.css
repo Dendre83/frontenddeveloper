@@ -30,7 +30,7 @@ color: white;
 font-family: 'Zen Dots', cursive;
 height: 100px;
 display: flex;
-padding-left: 50px;
+padding-left: 10px;
 }
 footer{
 background-color: blue;
@@ -38,22 +38,19 @@ color: white;
 font-family: 'Zen Dots', cursive;
 height: 100px;
 display: flex;
-padding-left: 50px;
+padding-left: 10px;
 clear: left;
 }
-div{
-padding: 10px 10px 10px 10px;
-}
 #nummer1{
-width: 40%;
+width: 100%;
 display: inline-block;
 }
 #nummer2{
-width: 40%;
+width: 100%;
 display: inline-block;
 }
 img{
 float: right;
-width: 50%;
+width: 25%;
 border: 2px solid white;
 }
